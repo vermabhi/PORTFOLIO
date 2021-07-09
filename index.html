@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+</head>
+
+<body >
+    <aside>
+        <div id="profile">
+            <img src="img/a.jpg" alt="Profile" id="profile-img">
+            <h2><a href="index.html">Abhishek Verma</a></h2>
+            <p>Full stack developer</p>
+            <!-- <div id="links">
+
+                </div> -->
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <div id="main">
+        <section id="home">
+            <div class="container">
+                <div id="gap">
+                    <div id="pic"></div>
+                    <div id="personal_text">
+                        <p>HELLO!! I AM</p>
+                        <h3>Abhishek Verma</h3>
+                        <h4>Full Stack Developer - Programmer</h4>
+                        <div class="det">
+                            <a href="#">+91 9795069236</a>
+                            <a href="#">abisekverma22@gmail.com</a>
+                            <a href="#">Kanpur, U.P</a>
+                        </div>
+                        <button id="btn"><a
+                                href="https://tinyurl.com/stdxswx6"
+                                class="link">See
+                                Resume</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="abt" id="about">
+            <div id="left_abt">
+                <p class="heading">ABOUT MYSELF</p>
+                <img src="img/a.jpg" alt="Profile" id="profile-img1">
+                <p class="text " id="breif">
+                    I'm Abhishek Verma, currently pursuing Bachelor of Technology(Btech) major Information Technology
+                    from Institute Of Engineering And Technology Lucknow. I'll graduate in 2022 so I'm in 3rd year of my
+                    Btech. Currently I'm looking for an internship as an Backend Developer to utilize my skills and
+                    knowledge, that would also challenge me to push my boundaries and expand my knowledge in this field.
+                    I'm motivated, energitic person and confident enough to show my skills.
+                </p>
+            </div>
+            <div id="right_abt">
+                <p class="sub-heading">Education</p>
+                <a href="#collapse"class="link panel" onclick="hide1()">
+                    Bachelor of Technology
+                </a>
+                <div id="collapse1">
+                    <p>Institute of Engineering and Technology Lucknow</p>
+                    <p>2018 - 2022</p>
+                    <p>Information Technology</p>
+                    <div class="marks">
+                        <p id="l1">C.G.P.A : </p>
+                        <p id="cg"> 8.215/10</p>
+                    </div>
+                </div>
+                <a href="#collapse" class=" link panel" onclick="hide2()">
+                    Intermediate Education
+                </a>
+                <div id="collapse2">
+                    <p>Shivaji Inter College Keshav Nagar, Kanpur</p>
+                    <p>2015 - 2017</p>
+                    <p>U.P Board</p>
+                    <div class="marks">
+                        <p id="l1">Percenentage : </p>
+                        <p id="cg"> 86.4%</p>
+                    </div>
+                </div>
+                <a href="#collapse" class="link panel" onclick="hide3()">
+                    High School Education
+                </a>
+                <div id="collapse3">
+                    <p>Shivaji Inter College Keshav Nagar, Kanpur</p>
+                    <p>2013 - 2015</p>
+                    <p>U.P Board</p>
+                    <div class="marks">
+                        <p id="l1">Percenentage : </p>
+                        <p id="cg"> 84%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="skill">
+            <section class="abt">
+                <div id="skill-heading">
+                    <p class="heading">MY SKILLS</p>
+                </div>
+                <div id="skill-con">
+                    <div id="left-skill">
+                        <ul class="skills-list">
+                            <li class="list-left">Programming</li>
+                            <li class="list-left">Development</li>
+                            <li class="list-left">Core Subjects</li>
+                            <li class="list-left">Soft Skills</li>
+                        </ul>
+                    </div>
+                    <div id="mid-skill">
+                        <div id="line"></div>
+                    </div>
+                    <div id="right-skill">
+                        <ul class="skills-list">
+                            <li class="list-right">C, C++, Python, Data Structure and Algorithms</li>
+                            <li class="list-right">HTML, CSS, Javascript, Bootstrap, MySQL, GIT, NodeJS</li>
+                            <li class="list-right">Computer Networks & Architecture, DBMS, ML, OOPS</li>
+                            <li class="list-right">Public Speaking, Leadership, Management Skills</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <section id="project">
+            <div class="abt">
+                <p class="heading project-head">PROJECTS</p>
+                <div id="project-content">
+                    <div class="project-box">
+                        <div class="left-side">
+                            <p class="sub-heading">1. E-commerce Website <a
+                                    href="https://abhi-vermaji.github.io/MAIN%20WEBSITE.html"
+                                    target="_blank">(Visit)</a></p>
+                            <img src="img/sitepage.png" alt="E-commerce Website" class="project-img">
+                        </div>
+                        <div class="right-side">
+                            <p class="text left-text">Frontend of an Ecommerce website.</p>
+                            <p class="sub-heading">Tech-used:</p>
+                            <p class="text left-text">HTML, CSS, Bootstrap, Javascript, GIT, Github</p>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <div class="left-side">
+                            <p class="sub-heading">2. Student Marks Predictor</p>
+                            <img src="img/student marks predictor.png" alt="Student Marks Predictor">
+                        </div>
+                        <div class="right-side">
+                            <p class="text left-text">Student marks predictor ML model to predict marks of a student
+                                based on study hour.</p>
+                            <p class="sub-heading">Tech-used:</p>
+                            <p class="text left-text">Python, sklearn, matplotlib, numpy, pandas, Linear regression</p>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <div class="left-side">
+                            <p class="sub-heading">3. Uber Rides Predictor</p>
+                            <img src="img/Uber rides predictor.png" alt="">
+                        </div>
+                        <div class="right-side">
+                            <p class="text left-text">Uber Rides Predictor ML model to predict numbers of weekly riders
+                                of a locality based on given dataset.</p>
+                            <p class="sub-heading">Tech-used:</p>
+                            <p class="text left-text">Python, sklearn, matplotlib, numpy, pandas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <p class="heading contact-head">Contact</p>
+            <div id="contact-breif">
+                <div id="con-det">
+                    <p class="text info">Kanpur, Uttar Pradesh</p>
+                    <p class="text info">+91 9795069236</p>
+                    <p class="text info">abisekverma22@gmail.com</p>
+                </div>
+                <div id="message">
+                    <div id="mes1">
+                        <form action="">
+                            <input type="text" class="form" placeholder="Enter Name">
+                            <input type="text" class="form" placeholder="Enter Email">
+                            <input type="text" class="form" placeholder="Enter Subject">
+                        </form>
+                    </div>
+                    <div id="mes2">
+                        <form action="">
+                            <textarea name="msg" id="msg" cols="40" rows="8" placeholder="Enter Message"></textarea>
+                            <input type="button" value="Send Message" id="send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+        <section id="footer">
+            <p>Copyright &copy; Abhishek Verma 2021</p>
+        </section>
+        <script src="js/abhi.js">
+        </script>
+    </div>
+</body>
+
+</html>
